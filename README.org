@@ -3,4 +3,3 @@
 Generate company-mode completion functions.
 
 This is useful for creating many ad-hoc completion functions with GPT-3.
-
