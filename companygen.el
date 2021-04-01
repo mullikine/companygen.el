@@ -66,4 +66,4 @@
     ;; (annotation (company-pen-filetype--annotation arg))
     ))
 
-(provide 'company-generate-completion-function)
+(provide 'companygen)
