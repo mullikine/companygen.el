@@ -18,13 +18,13 @@
 
   `(progn ,@body))
 
-;; gen is like def but it generates the name 
+;; gen is like def but it generates the name
 
 (gencompletion-engine 'company-pen-filetype--candidates)
 (gencompletion-engine (gencandidatesfunction company-pen-filetype--candidates))
 
 
-;; This is provided, not generated  
+;; This is provided, not generated
 (defun company-pen-filetype--candidates (prefix)
   (let* ((preceding-text (str (buffer-substring (point) (max 1 (- (point) 1000)))))
          (endspace)
